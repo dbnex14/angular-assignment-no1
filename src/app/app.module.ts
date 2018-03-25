@@ -5,15 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { WarningComponent } from './warning/warning.component';
-import { Warning2Component } from './warning2/warning2.component';
-import { Warning3Component } from './warning3/warning3.component';
+import { SuccessComponent } from './success/success.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WarningComponent,
-    Warning2Component,
-    Warning3Component
+    SuccessComponent
   ],
   imports: [
     BrowserModule,
